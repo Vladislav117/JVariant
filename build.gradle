@@ -11,7 +11,7 @@ apply plugin: JVariantDevelopmentPlugin
 // Information
 
 group = 'ru.vladislav117.jvariant'
-version = '0.0.0'
+version = '1.0.0'
 
 // Dependencies
 
