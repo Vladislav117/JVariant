@@ -1,6 +1,7 @@
-# JavaLibraryTemplate
+# JVariant
 
-JavaLibraryTemplate - шаблон java-библиотеки.
+JVariant - java-библиотека, содержащая класс Variant.
+Variant - это универсальный объект, который может иметь значение как примитива (null, boolean, number, string), так и структуры (list, map).
 
 ## Добавление зависимости
 
@@ -12,11 +13,13 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.github.Vladislav117:JavaLibraryTemplate:0.0.0'
+    implementation 'com.github.Vladislav117:JVariant:0.0.0'
 }
 ```
 
 ## Сборка
+
+Генерация класса Variant осуществляется командой `./gradlew buildVariantClass`
 
 Сборка осуществляется командой `./gradlew build`
 
